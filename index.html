@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Interview Simulator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="header">
+    <h1>Mini Interview Simulator</h1>
+  </div>
+
+  <div class="container">
+
+    <div class="left-section">
+      <textarea placeholder="Type your question here..." rows="5"></textarea>
+      <input type="number" id="timer-input" placeholder="Set timer (in seconds)" min="1" />
+      <button class="start-btn">Start Recording</button>
+    </div>
+
+    <div class="right-section">
+      <div class="time-left">Time Left: 00:00</div>
+      <div class="video-placeholder">[ Video Stream Will Appear Here ]</div>
+      <div class="buttons-container">
+        <button class="stop-btn">Stop Recording</button>
+        <a class="download-btn" style="display: none;">Download</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
